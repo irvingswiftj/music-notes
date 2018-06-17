@@ -1,0 +1,30 @@
+{
+  "a": {
+    "name": "A",
+    "variants": ["sharp", "flat"]
+  },
+  "b": {
+    "name": "B",
+    "variants": ["flat"]
+  },
+  "c": {
+    "name": "C",
+    "variants": ["sharp"]
+  },
+  "d": {
+    "name": "D",
+    "variants": ["sharp", "flat"]
+  },
+  "e": {
+    "name": "E",
+    "variants": ["flat"]
+  },
+  "f": {
+    "name": "F",
+    "variants": ["sharp"]
+  },
+  "g": {
+    "name": "G",
+    "variants": ["sharp", "flat"]
+  }
+}
