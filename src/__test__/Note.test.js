@@ -20,5 +20,6 @@ test('Can step up notes', () => {
 });
 
 test('Can step down notes', () => {
-
+  const note = new Note('b');
+  expect(note.stepDown().toString()).toBe('A');
 });

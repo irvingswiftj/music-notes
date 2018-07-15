@@ -17,7 +17,6 @@ class Note {
   }
 
   toString() {
-    console.log(this.note.toUpperCase());
     return `${this.note.toUpperCase()}${this.variant}`;
   }
 
