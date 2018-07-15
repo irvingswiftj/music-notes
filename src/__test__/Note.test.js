@@ -12,3 +12,13 @@ test('Throw error if invalid note given', () => {
     const note = new Note(); // eslint-disable-line
   }).toThrow('Invalid Note Specified');
 });
+
+test('Can step up notes', () => {
+  const note = new Note('b');
+
+  expect(note.stepUp().toString()).toBe('C');
+});
+
+test('Can step down notes', () => {
+
+});
